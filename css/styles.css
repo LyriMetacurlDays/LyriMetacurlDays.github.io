@@ -1,0 +1,647 @@
+/* Bootstrap added stuff */
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+/* Older custom stuff */
+h1, h2, h3, p, ol, ul {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+/*     text-align: center; */
+}
+li{
+  margin: 15px 0;
+}
+#bestmonth {
+    text-shadow: 0 0 6px #003F00, 0 0 8px #FFFFFF;
+}
+.code {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+.note {
+    font-style: italic;
+}
+.seethrough {
+    background-color:transparent;
+    border-style: solid;
+    border-width: medium;
+}
+.translucent {
+    background-color:rgba(127, 127, 127, 0.3);
+}
+.translucent.greyed {
+    background-color:rgba(0, 0, 0, 0.3);
+}
+
+.regular-content {
+    text-align: justify;
+}
+.statbox {
+    margin: 5%;
+    border: 10px solid black;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.relatedbox {
+    overflow: auto;
+    margin: 5%;
+    border: 10px solid green;
+    margin: 10px 0;
+    padding: 0 1%;
+}
+.pastbox {
+    float: left;
+    margin: 5% 2.5% 5% 5%;
+    width: 42.5%;
+    border: 5px solid red;
+    background-color: rgba(255, 0, 0, 0.3);
+    margin: 10px 1%;
+    padding: 0 1%;
+}
+.futurebox {
+    float: right;
+    margin: 5% 5% 5% 2.5%;
+    width: 42.5%;
+    border: 5px solid blue;
+    background-color: rgba(0, 0, 255, 0.3);
+    margin: 10px 1%;
+    padding: 0 1%;
+}
+
+
+
+/* Prizes */
+.prizebox {
+    margin: 5%;
+    border: 10px solid black;
+    margin: 10px 0;
+    padding: 0 20px;
+}
+.firstplace {
+    color: #00FF00;
+    text-shadow: 0 0 6px #003F00, 0 0 8px #FFFFFF;
+}
+.secondplace {
+    color: #0000FF;
+    text-shadow: 0 0 5px #FFFFFF, 0 0 7px #0000FF;
+}
+.topten {
+    color:#00FFFF;
+    text-shadow: 0 0 3px #0000FF, 0 0 5px #00FF00;
+}
+.lastplace {
+    color: black;
+    text-shadow: 0 0 5px #3F3F3F, 0 0 7px #000000;
+}
+.representative {
+    color: red;
+    text-shadow: 0 0 5px #FFBFBF, 0 0 7px #BF0000;
+}
+.deputyrep {
+    color: white;
+    text-shadow: 0 0 5px #BFBFBF;
+}
+.firstlegend {
+    color: gold;
+    text-shadow: 0 0 5px #FFFFFF, 0 0 7px #D4AF37;
+}
+.secondlegend {
+    color: silver;
+    text-shadow: 0 0 5px #FFFFFF, 0 0 7px #C0C0C0;
+}
+.thirdlegend {
+    color: #CD7F32;
+    text-shadow: 0 0 5px #111111, 0 0 7px #CD7F32;
+}
+.titleistheme {
+    color: #FF00FF;
+    text-shadow: 0 0 5px #FFFFFF, 0 0 7px #FF00FF;
+}
+
+
+/* Badges */
+.babyan {
+    color: #8064A2;
+    text-shadow: 0 0 9px #E6E0EC;
+}
+.playschoolian {
+    color: #4F81BD;
+    text-shadow: 0 0 9px #984807;
+}
+.primaryzoic {
+    color: #00B050;
+    text-shadow: 0 0 9px #953735;
+}
+.secondaryzoic {
+    color: #FF0000;
+    text-shadow: 0 0 9px #808080;
+}
+.collegenian {
+    color: #0000FF;
+    text-shadow: 0 0 9px #808080;
+}
+.universityzoic {
+    color: #00FF00;
+    text-shadow: 0 0 9px #000000;
+}
+
+/* Hearts */
+.heartred {
+    color: #BF0000;
+    text-shadow: 0 0 9px #FF0000;
+}
+.heartgreen {
+    color: #009F00;
+    text-shadow: 0 0 9px #00FF00;
+}
+.heartblue {
+    color: #3F3FFF;
+    text-shadow: 0 0 9px #00BFFF;
+}
+.heartpurple {
+    color: #BF7FBF;
+    text-shadow: 0 0 9px #FF00FF;
+}
+.heartyellow {
+    color: #BFBF00;
+    text-shadow: 0 0 9px #FFFF00;
+}
+.heartorange {
+    color: #BF7F00;
+    text-shadow: 0 0 9px #BF9F00;
+}
+
+/* Clubs */
+.club93 {
+    color: #DF1FDF;
+    text-shadow: 0 0 9px #BF3FBF;
+}
+.club95 {
+    color: #DF5F5F;
+    text-shadow: 0 0 9px #BF3FBF;
+}
+.club00 {
+    color: #FFFFFF;
+    text-shadow: 0 0 9px #000000;
+}
+.club07 {
+    color: #FFFF7F;
+    text-shadow: 0 0 9px #000000;
+}
+.club09 {
+    color: #DF9FDF;
+    text-shadow: 0 0 9px #000000;
+}
+
+/* Auras */
+.auragrey {
+    text-shadow: 0 0 9px #7F7F7F;
+}
+.auracyan {
+    text-shadow: 0 0 9px #00FFFF;
+}
+.aurared {
+    text-shadow: 0 0 9px #FF0000;
+}
+.aurayellow {
+    text-shadow: 0 0 9px #FFFF00;
+}
+.aurablue {
+    text-shadow: 0 0 9px #0000FF;
+}
+.auragreen {
+    text-shadow: 0 0 9px #00FF00;
+}
+.auramagenta {
+    text-shadow: 0 0 9px #FF00FF;
+}
+
+
+/* Month colours */
+.janc {
+    background-color: rgba(127, 85, 234, 1);
+    color: rgba(213, 181, 245, 1);
+}
+.janc a {
+    color: rgba(244, 233, 255, 1);
+}
+.febc {
+    background-color: rgba(63, 63, 191, 1);
+    color: rgba(191, 191, 255, 1);
+}
+.febc a {
+    color: rgba(233, 233, 255, 1);
+}
+.marc {
+    background-color: rgba(42, 127, 213, 1);
+    color: rgba(200, 200, 250, 1);
+}
+.marc a {
+    color: rgba(230, 242, 255, 1);
+}
+.aprc {
+    background-color: rgba(21, 234, 234, 1);
+    color: rgba(0, 95, 95, 1);
+}
+.aprc a {
+    color: rgba(0, 55, 55, 1);
+}
+.mayc {
+    background-color: rgba(0, 255, 127, 1);
+    color: rgba(0, 63, 31, 1);
+}
+.mayc a {
+    color: rgba(0, 63, 31, 1);
+}
+.junc {
+    background-color: rgba(21, 191, 21, 1);
+    color: rgba(100, 0, 40, 1);
+}
+.junc a {
+    color: rgba(40, 0, 100, 1);
+}
+.julc {
+    background-color: rgba(127, 213, 42, 1);
+    color: rgba(31, 63, 0, 1);
+}
+.julc a {
+    color: rgba(31, 63, 0, 1);
+}
+.augc {
+    background-color: rgba(191, 191, 63, 1);
+    color: rgba(63, 63, 0, 1);
+}
+.augc a {
+    color: rgba(43, 43, 0, 1);
+}
+.sepc {
+    background-color: rgba(170, 127, 85, 1);
+    color: rgba(255, 223, 191, 1);
+}
+.sepc a {
+    color: rgba(255, 223, 191, 1);
+}
+.octc {
+    background-color: rgba(149, 106, 106, 1);
+    color: rgba(255, 191, 191, 1);
+}
+.octc a {
+    color: rgba(255, 230, 230, 1);
+}
+.novc {
+    background-color: rgba(127, 127, 127, 1);
+    color: rgba(255, 191, 223, 1);
+}
+.novc a {
+    color: rgba(255, 223, 239, 1);
+}
+.decc {
+    background-color: rgba(149, 106, 149, 1);
+    color: rgba(255, 191, 255, 1);
+}
+.decc a {
+    color: rgba(255, 230, 255, 1);
+}
+
+
+
+/* Day text colour, supposed to be nc (black) for ratings 34 to 133 and ac (white) for ratings outside of that range */
+.nc {
+    color: rgba(0, 0, 0, 1);
+    border-color: black;
+}
+.nc a {
+    color: rgba(0, 0, 0, 1);
+    text-decoration: underline;
+}
+.ac {
+    color: rgba(255, 255, 255, 1);
+    border-color: white;
+}
+.ac a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: underline;
+}
+
+
+
+/* Day background rating colours */
+.ru {
+    background-color: rgba(191, 191, 191, 1);
+}
+.r0 {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.r32 {
+    background-color: rgba(0, 163, 0, 1);
+}
+.r50 {
+    background-color: rgba(0, 255, 0, 1);
+}
+.r51 {
+    background-color: rgba(5, 255, 5, 1);
+}
+.r52 {
+    background-color: rgba(10, 255, 10, 1);
+}
+.r53 {
+    background-color: rgba(15, 255, 15, 1);
+}
+.r54 {
+    background-color: rgba(20, 255, 20, 1);
+}
+.r55 {
+    background-color: rgba(25, 255, 25, 1);
+}
+.r56 {
+    background-color: rgba(30, 255, 30, 1);
+}
+.r57 {
+    background-color: rgba(35, 255, 35, 1);
+}
+.r58 {
+    background-color: rgba(40, 255, 40, 1);
+}
+.r59 {
+    background-color: rgba(45, 255, 45, 1);
+}
+.r60 {
+    background-color: rgba(51, 255, 51, 1);
+}
+.r61 {
+    background-color: rgba(56, 255, 56, 1);
+}
+.r62 {
+    background-color: rgba(61, 255, 61, 1);
+}
+.r63 {
+    background-color: rgba(66, 255, 66, 1);
+}
+.r64 {
+    background-color: rgba(71, 255, 71, 1);
+}
+.r65 {
+    background-color: rgba(76, 255, 76, 1);
+}
+.r66 {
+    background-color: rgba(81, 255, 81, 1);
+}
+.r67 {
+    background-color: rgba(86, 255, 86, 1);
+}
+.r68 {
+    background-color: rgba(91, 255, 91, 1);
+}
+.r69 {
+    background-color: rgba(96, 255, 96, 1);
+}
+.r70 {
+    background-color: rgba(102, 255, 102, 1);
+}
+.r71 {
+    background-color: rgba(107, 255, 107, 1);
+}
+.r72 {
+    background-color: rgba(112, 255, 112, 1);
+}
+.r73 {
+    background-color: rgba(117, 255, 117, 1);
+}
+.r74 {
+    background-color: rgba(122, 255, 122, 1);
+}
+.r75 {
+    background-color: rgba(127, 255, 127, 1);
+}
+.r76 {
+    background-color: rgba(132, 255, 132, 1);
+}
+.r77 {
+    background-color: rgba(137, 255, 137, 1);
+}
+.r78 {
+    background-color: rgba(142, 255, 142, 1);
+}
+.r79 {
+    background-color: rgba(147, 255, 147, 1);
+}
+.r80 {
+    background-color: rgba(153, 255, 153, 1);
+}
+.r81 {
+    background-color: rgba(158, 255, 158, 1);
+}
+.r82 {
+    background-color: rgba(163, 255, 163, 1);
+}
+.r83 {
+    background-color: rgba(168, 255, 168, 1);
+}
+.r84 {
+    background-color: rgba(173, 255, 173, 1);
+}
+.r85 {
+    background-color: rgba(178, 255, 178, 1);
+}
+.r86 {
+    background-color: rgba(183, 255, 183, 1);
+}
+.r87 {
+    background-color: rgba(188, 255, 188, 1);
+}
+.r88 {
+    background-color: rgba(193, 255, 193, 1);
+}
+.r89 {
+    background-color: rgba(198, 255, 198, 1);
+}
+.r90 {
+    background-color: rgba(204, 255, 204, 1);
+}
+.r91 {
+    background-color: rgba(209, 255, 209, 1);
+}
+.r92 {
+    background-color: rgba(214, 255, 214, 1);
+}
+.r93 {
+    background-color: rgba(219, 255, 219, 1);
+}
+.r94 {
+    background-color: rgba(224, 255, 224, 1);
+}
+.r95 {
+    background-color: rgba(229, 255, 229, 1);
+}
+.r96 {
+    background-color: rgba(234, 255, 234, 1);
+}
+.r97 {
+    background-color: rgba(239, 255, 239, 1);
+}
+.r98 {
+    background-color: rgba(244, 255, 244, 1);
+}
+.r99 {
+    background-color: rgba(249, 255, 249, 1);
+}
+.r100 {
+    background-color: rgba(255, 255, 255, 1);
+}
+.r101 {
+    background-color: rgba(255, 249, 255, 1);
+}
+.r102 {
+    background-color: rgba(255, 244, 255, 1);
+}
+.r110 {
+    background-color: rgba(255, 204, 255, 1);
+}
+
+
+
+/* Year background rating colours */
+.ypage {
+    padding: 1.3em;
+    margin: 0;
+}
+.y0002 {
+    background-color: rgba(255, 191, 191, 1);
+}
+.y0012 {
+    background-color: rgba(191, 127, 191, 1);
+}
+.y0022 {
+    background-color: rgba(255, 127, 127, 1);
+}
+.y0023 {
+    background-color: rgba(255, 127, 191, 1);
+}
+.y0024 {
+    background-color: rgba(191, 191, 159, 1);
+}
+.y0025 {
+    background-color: rgba(255, 159, 127, 1);
+}
+.y0026 {
+    background-color: rgba(191, 191, 127, 1);
+}
+.y0027 {
+    background-color: rgba(255, 191, 127, 1);
+}
+.y0028 {
+    background-color: rgba(191, 127, 127, 1);
+}
+.y0029 {
+    background-color: rgba(239, 143, 175, 1);
+}
+.y0112 {
+    background-color: rgba(127, 63, 191, 1);
+}
+.y0122 {
+    background-color: rgba(191, 63, 127, 1);
+}
+.y0123 {
+    background-color: rgba(191, 63, 191, 1);
+}
+.y0124 {
+    background-color: rgba(127, 127, 159, 1);
+}
+.y0125 {
+    background-color: rgba(191, 95, 127, 1);
+}
+.y0126 {
+    background-color: rgba(127, 127, 127, 1);
+}
+.y0127 {
+    background-color: rgba(191, 127, 127, 1);
+}
+.y0128 {
+    background-color: rgba(127, 63, 127, 1);
+}
+.y0129 {
+    background-color: rgba(175, 79, 175, 1);
+}
+.y0199 {
+    background-color: rgba(159, 95, 223, 1);
+}
+.y0222 {
+    background-color: rgba(255, 63, 63, 1);
+}
+.y0223 {
+    background-color: rgba(255, 63, 127, 1);
+}
+.y0224 {
+    background-color: rgba(191, 127, 95, 1);
+}
+.y0225 {
+    background-color: rgba(255, 95, 63, 1);
+}
+.y0226 {
+    background-color: rgba(191, 127, 63, 1);
+}
+.y0227 {
+    background-color: rgba(255, 127, 63, 1);
+}
+.y0228 {
+    background-color: rgba(191, 63, 63, 1);
+}
+.y0229 {
+    background-color: rgba(239, 79, 111, 1);
+}
+.y1199 {
+    background-color: rgba(95, 31, 223, 1);
+}
+.y1288 {
+    background-color: rgba(63, 0, 63, 1);
+}
+.y1299 {
+    background-color: rgba(159, 31, 159, 1);
+}
+.y1399 {
+    background-color: rgba(159, 31, 223, 1);
+}
+.y1499 {
+    background-color: rgba(95, 95, 191, 1);
+}
+.y1599 {
+    background-color: rgba(159, 63, 159, 1);
+}
+.y1699 {
+    background-color: rgba(95, 95, 159, 1);
+}
+.y1799 {
+    background-color: rgba(159, 95, 159, 1);
+}
+.y1889 {
+    background-color: rgba(47, 15, 111, 1);
+}
+.y1899 {
+    background-color: rgba(95, 31, 159, 1);
+}
+.y1999 {
+    background-color: rgba(143, 0, 208, 1);
+}
+
+/* Special background colours */
+.bg_aca {
+    background-color: rgba(119, 184, 205, 1);
+}
+.bg_dca {
+    background-color: rgba(136, 71, 50, 1);
+}
