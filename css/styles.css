@@ -231,6 +231,133 @@ li{
 }
 
 
+/* Year background rating colours */
+.ypage {
+    padding: 1.3em;
+    margin: 0;
+}
+.y0002 {
+    background-color: rgba(255, 191, 191, 1);
+}
+.y0012 {
+    background-color: rgba(191, 127, 191, 1);
+    border-style: solid;
+    border-color: rgba(191, 127, 191, 1);
+    border-width: 10px;
+}
+.y0022 {
+    background-color: rgba(255, 127, 127, 1);
+}
+.y0023 {
+    background-color: rgba(255, 127, 191, 1);
+}
+.y0024 {
+    background-color: rgba(191, 191, 159, 1);
+}
+.y0025 {
+    background-color: rgba(255, 159, 127, 1);
+}
+.y0026 {
+    background-color: rgba(191, 191, 127, 1);
+}
+.y0027 {
+    background-color: rgba(255, 191, 127, 1);
+}
+.y0028 {
+    background-color: rgba(191, 127, 127, 1);
+}
+.y0029 {
+    background-color: rgba(239, 143, 175, 1);
+}
+.y0112 {
+    background-color: rgba(127, 63, 191, 1);
+}
+.y0122 {
+    background-color: rgba(191, 63, 127, 1);
+}
+.y0123 {
+    background-color: rgba(191, 63, 191, 1);
+}
+.y0124 {
+    background-color: rgba(127, 127, 159, 1);
+}
+.y0125 {
+    background-color: rgba(191, 95, 127, 1);
+}
+.y0126 {
+    background-color: rgba(127, 127, 127, 1);
+}
+.y0127 {
+    background-color: rgba(191, 127, 127, 1);
+}
+.y0128 {
+    background-color: rgba(127, 63, 127, 1);
+}
+.y0129 {
+    background-color: rgba(175, 79, 175, 1);
+}
+.y0199 {
+    background-color: rgba(159, 95, 223, 1);
+}
+.y0222 {
+    background-color: rgba(255, 63, 63, 1);
+}
+.y0223 {
+    background-color: rgba(255, 63, 127, 1);
+}
+.y0224 {
+    background-color: rgba(191, 127, 95, 1);
+}
+.y0225 {
+    background-color: rgba(255, 95, 63, 1);
+}
+.y0226 {
+    background-color: rgba(191, 127, 63, 1);
+}
+.y0227 {
+    background-color: rgba(255, 127, 63, 1);
+}
+.y0228 {
+    background-color: rgba(191, 63, 63, 1);
+}
+.y0229 {
+    background-color: rgba(239, 79, 111, 1);
+}
+.y1199 {
+    background-color: rgba(95, 31, 223, 1);
+}
+.y1288 {
+    background-color: rgba(63, 0, 63, 1);
+}
+.y1299 {
+    background-color: rgba(159, 31, 159, 1);
+}
+.y1399 {
+    background-color: rgba(159, 31, 223, 1);
+}
+.y1499 {
+    background-color: rgba(95, 95, 191, 1);
+}
+.y1599 {
+    background-color: rgba(159, 63, 159, 1);
+}
+.y1699 {
+    background-color: rgba(95, 95, 159, 1);
+}
+.y1799 {
+    background-color: rgba(159, 95, 159, 1);
+}
+.y1889 {
+    background-color: rgba(47, 15, 111, 1);
+}
+.y1899 {
+    background-color: rgba(95, 31, 159, 1);
+}
+.y1999 {
+    background-color: rgba(143, 0, 208, 1);
+}
+
+
 /* Month colours */
 .janc {
     background-color: rgba(127, 85, 234, 1);
@@ -335,6 +462,14 @@ li{
 .ac a {
     color: rgba(255, 255, 255, 1);
     text-decoration: underline;
+}
+
+/* Special background colours */
+.bg_aca {
+    background-color: rgba(119, 184, 205, 1);
+}
+.bg_dca {
+    background-color: rgba(136, 71, 50, 1);
 }
 
 
@@ -514,134 +649,38 @@ li{
 }
 
 
+.res-circle {
+  /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
+  width: 40%;
+  border-radius: 50%;
 
-/* Year background rating colours */
-.ypage {
-    padding: 1.3em;
-    margin: 0;
+  /* (B) BACKGROUND COLOR 
+  background-color: #bcd6ff;
+  border-style: solid;
+  border-color: #ff0000;
+  border-width: 5px;*/ 
+ 
+  /* (C) NECESSARY TO POSITION TEXT BLOCK */
+  line-height: 0;
+  position: relative;
 }
-.y0002 {
-    background-color: rgba(255, 191, 191, 1);
+ 
+/* (D) MATCH HEIGHT */
+.res-circle::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
-.y0012 {
-    background-color: rgba(191, 127, 191, 1);
-}
-.y0022 {
-    background-color: rgba(255, 127, 127, 1);
-}
-.y0023 {
-    background-color: rgba(255, 127, 191, 1);
-}
-.y0024 {
-    background-color: rgba(191, 191, 159, 1);
-}
-.y0025 {
-    background-color: rgba(255, 159, 127, 1);
-}
-.y0026 {
-    background-color: rgba(191, 191, 127, 1);
-}
-.y0027 {
-    background-color: rgba(255, 191, 127, 1);
-}
-.y0028 {
-    background-color: rgba(191, 127, 127, 1);
-}
-.y0029 {
-    background-color: rgba(239, 143, 175, 1);
-}
-.y0112 {
-    background-color: rgba(127, 63, 191, 1);
-}
-.y0122 {
-    background-color: rgba(191, 63, 127, 1);
-}
-.y0123 {
-    background-color: rgba(191, 63, 191, 1);
-}
-.y0124 {
-    background-color: rgba(127, 127, 159, 1);
-}
-.y0125 {
-    background-color: rgba(191, 95, 127, 1);
-}
-.y0126 {
-    background-color: rgba(127, 127, 127, 1);
-}
-.y0127 {
-    background-color: rgba(191, 127, 127, 1);
-}
-.y0128 {
-    background-color: rgba(127, 63, 127, 1);
-}
-.y0129 {
-    background-color: rgba(175, 79, 175, 1);
-}
-.y0199 {
-    background-color: rgba(159, 95, 223, 1);
-}
-.y0222 {
-    background-color: rgba(255, 63, 63, 1);
-}
-.y0223 {
-    background-color: rgba(255, 63, 127, 1);
-}
-.y0224 {
-    background-color: rgba(191, 127, 95, 1);
-}
-.y0225 {
-    background-color: rgba(255, 95, 63, 1);
-}
-.y0226 {
-    background-color: rgba(191, 127, 63, 1);
-}
-.y0227 {
-    background-color: rgba(255, 127, 63, 1);
-}
-.y0228 {
-    background-color: rgba(191, 63, 63, 1);
-}
-.y0229 {
-    background-color: rgba(239, 79, 111, 1);
-}
-.y1199 {
-    background-color: rgba(95, 31, 223, 1);
-}
-.y1288 {
-    background-color: rgba(63, 0, 63, 1);
-}
-.y1299 {
-    background-color: rgba(159, 31, 159, 1);
-}
-.y1399 {
-    background-color: rgba(159, 31, 223, 1);
-}
-.y1499 {
-    background-color: rgba(95, 95, 191, 1);
-}
-.y1599 {
-    background-color: rgba(159, 63, 159, 1);
-}
-.y1699 {
-    background-color: rgba(95, 95, 159, 1);
-}
-.y1799 {
-    background-color: rgba(159, 95, 159, 1);
-}
-.y1889 {
-    background-color: rgba(47, 15, 111, 1);
-}
-.y1899 {
-    background-color: rgba(95, 31, 159, 1);
-}
-.y1999 {
-    background-color: rgba(143, 0, 208, 1);
-}
-
-/* Special background colours */
-.bg_aca {
-    background-color: rgba(119, 184, 205, 1);
-}
-.bg_dca {
-    background-color: rgba(136, 71, 50, 1);
+ 
+/* (E) TEXT BLOCK */
+.circle-txt {
+  /* (E1) CENTER TEXT IN CIRCLE */
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  text-align: center;
+ 
+  /* (E2) THE FONT - NOT REALLY IMPORTANT */
+  font-family: arial, sans-serif;
+  font-weight: bold;
 }
