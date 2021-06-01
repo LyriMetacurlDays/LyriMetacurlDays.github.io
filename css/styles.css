@@ -20,7 +20,8 @@ body {
 
 /* Older custom stuff */
 h1, h2, h3, p, ol, ul {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Courier New', monospace;
+/*    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
 /*     text-align: center; */
 }
 
@@ -471,6 +472,21 @@ li{
     text-decoration: underline;
 }
 
+
+/* Paper background colour */
+.paper {
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 235, 1);
+}
+.paper a {
+    color: rgba(0, 0, 0, 1);
+}
+.paper hr {
+        height: 1px;
+        background-color: #000;
+        border: none;
+}
+
 /* Special background colours */
 .bg_aca {
     background-color: rgba(119, 184, 205, 1);
@@ -656,7 +672,7 @@ li{
 }
 
 
-/* Fonts */
+/* Fonts
 .babyan h1, .babyan h2, .babyan h3, .babyan p, .babyan ol, .babyan ul {
     font-family: 'Brush Script MT', cursive;
 }
@@ -675,3 +691,4 @@ li{
 .universityzoic h1, .universityzoic h2, .universityzoic h3, .universityzoic p, .universityzoic ol, .universityzoic ul {
     font-family: 'Times New Roman', serif;
 }
+ */
