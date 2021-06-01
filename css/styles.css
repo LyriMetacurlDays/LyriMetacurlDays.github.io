@@ -18,7 +18,7 @@ body {
   width: auto;
 }
 
-/* Older custom stuff */
+/* Default font override */
 h1, h2, h3, p, ol, ul {
     font-family: 'Courier New', monospace;
 /*    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
@@ -238,131 +238,166 @@ li{
     padding: 1.3em;
     margin: 0;
 }
+.ygen {
+    border-style: solid;
+    border-width: 10px;
+}
+
 .y0002 {
     background-color: rgba(255, 191, 191, 1);
+    border-color: rgba(255, 191, 191, 1);
 }
 .y0012 {
     background-color: rgba(191, 127, 191, 1);
-    border-style: solid;
     border-color: rgba(191, 127, 191, 1);
-    border-width: 10px;
 }
 .y0022 {
     background-color: rgba(255, 127, 127, 1);
+    border-color: rgba(255, 127, 127, 1);
 }
 .y0023 {
     background-color: rgba(255, 127, 191, 1);
+    border-color: rgba(255, 127, 191, 1);
 }
 .y0024 {
     background-color: rgba(191, 191, 159, 1);
+    border-color: rgba(191, 191, 159, 1);
 }
 .y0025 {
     background-color: rgba(255, 159, 127, 1);
+    border-color: rgba(255, 159, 127, 1);
 }
 .y0026 {
     background-color: rgba(191, 191, 127, 1);
+    border-color: rgba(191, 191, 127, 1);
 }
 .y0027 {
     background-color: rgba(255, 191, 127, 1);
+    border-color: rgba(255, 191, 127, 1);
 }
 .y0028 {
     background-color: rgba(191, 127, 127, 1);
+    border-color: rgba(191, 127, 127, 1);
 }
 .y0029 {
     background-color: rgba(239, 143, 175, 1);
+    border-color: rgba(239, 143, 175, 1);
 }
 .y0112 {
     background-color: rgba(127, 63, 191, 1);
+    border-color: rgba(127, 63, 191, 1);
 }
 .y0122 {
     background-color: rgba(191, 63, 127, 1);
+    border-color: rgba(191, 63, 127, 1);
 }
 .y0123 {
     background-color: rgba(191, 63, 191, 1);
+    border-color: rgba(191, 63, 191, 1);
 }
 .y0124 {
     background-color: rgba(127, 127, 159, 1);
+    border-color: rgba(127, 127, 159, 1);
 }
 .y0125 {
     background-color: rgba(191, 95, 127, 1);
+    border-color: rgba(191, 95, 127, 1);
 }
 .y0126 {
     background-color: rgba(127, 127, 127, 1);
+    border-color: rgba(127, 127, 127, 1);
 }
 .y0127 {
     background-color: rgba(191, 127, 127, 1);
+    border-color: rgba(191, 127, 127, 1);
 }
 .y0128 {
     background-color: rgba(127, 63, 127, 1);
+    border-color: rgba(127, 63, 127, 1);
 }
 .y0129 {
     background-color: rgba(175, 79, 175, 1);
+    border-color: rgba(175, 79, 175, 1);
 }
 .y0199 {
     background-color: rgba(159, 95, 223, 1);
+    border-color: rgba(159, 95, 223, 1);
 }
 .y0222 {
     background-color: rgba(255, 63, 63, 1);
+    border-color: rgba(255, 63, 63, 1);
 }
 .y0223 {
     background-color: rgba(255, 63, 127, 1);
+    border-color: rgba(255, 63, 127, 1);
 }
 .y0224 {
     background-color: rgba(191, 127, 95, 1);
+    border-color: rgba(191, 127, 95, 1);
 }
 .y0225 {
     background-color: rgba(255, 95, 63, 1);
+    border-color: rgba(255, 95, 63, 1);
 }
 .y0226 {
     background-color: rgba(191, 127, 63, 1);
+    border-color: rgba(191, 127, 63, 1);
 }
 .y0227 {
     background-color: rgba(255, 127, 63, 1);
+    border-color: rgba(255, 127, 63, 1);
 }
 .y0228 {
     background-color: rgba(191, 63, 63, 1);
+    border-color: rgba(191, 63, 63, 1);
 }
 .y0229 {
     background-color: rgba(239, 79, 111, 1);
+    border-color: rgba(239, 79, 111, 1);
 }
 .y1199 {
     background-color: rgba(95, 31, 223, 1);
+    border-color: rgba(95, 31, 223, 1);
 }
 .y1288 {
     background-color: rgba(63, 0, 63, 1);
+    border-color: rgba(63, 0, 63, 1);
 }
 .y1299 {
     background-color: rgba(159, 31, 159, 1);
+    border-color: rgba(159, 31, 159, 1);
 }
 .y1399 {
     background-color: rgba(159, 31, 223, 1);
+    border-color: rgba(159, 31, 223, 1);
 }
 .y1499 {
     background-color: rgba(95, 95, 191, 1);
+    border-color: rgba(95, 95, 191, 1);
 }
 .y1599 {
     background-color: rgba(159, 63, 159, 1);
+    border-color: rgba(159, 63, 159, 1);
 }
 .y1699 {
     background-color: rgba(95, 95, 159, 1);
+    border-color: rgba(95, 95, 159, 1);
 }
 .y1799 {
     background-color: rgba(159, 95, 159, 1);
+    border-color: rgba(159, 95, 159, 1);
 }
 .y1889 {
     background-color: rgba(47, 15, 111, 1);
-    border-style: solid;
     border-color: rgba(47, 15, 111, 1);
-    border-width: 10px;
 }
 .y1899 {
     background-color: rgba(95, 31, 159, 1);
-    border-style: solid;
     border-color: rgba(95, 31, 159, 1);
-    border-width: 10px;
 }
 .y1999 {
     background-color: rgba(143, 0, 208, 1);
+    border-color: rgba(143, 0, 208, 1);
 }
 
 
@@ -502,7 +537,6 @@ li{
 .bg_dca {
     background-color: rgba(136, 71, 50, 1);
 }
-
 
 
 /* Day background rating colours */
@@ -680,23 +714,12 @@ li{
 }
 
 
-/* Fonts
-.babyan h1, .babyan h2, .babyan h3, .babyan p, .babyan ol, .babyan ul {
-    font-family: 'Brush Script MT', cursive;
+/* Writing font */
+.writing {
+    font-family: 'Andika New Basic';
+/*    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+/*     text-align: center; */
 }
-.playschoolian h1, .playschoolian h2, .playschoolian h3, .playschoolian p, .playschoolian ol, .playschoolian ul {
-    font-family: 'Brush Script MT', cursive;
+.deadlink {
+    color: rgba(0, 0, 0, 0.6) !important;
 }
-.primaryzoic h1, .primaryzoic h2, .primaryzoic h3, .primaryzoic p, .primaryzoic ol, .primaryzoic ul {
-    font-family: 'Brush Script MT', cursive;
-}
-.secondaryzoic h1, .secondaryzoic h2, .secondaryzoic h3, .secondaryzoic p, .secondaryzoic ol, .secondaryzoic ul {
-    font-family: 'Courier New', monospace;
-}
-.collegenian h1, .collegenian h2, .collegenian h3, .collegenian p, .collegenian ol, .collegenian ul {
-    font-family: 'Courier New', monospace;
-}
-.universityzoic h1, .universityzoic h2, .universityzoic h3, .universityzoic p, .universityzoic ol, .universityzoic ul {
-    font-family: 'Times New Roman', serif;
-}
- */
