@@ -23,6 +23,7 @@ h1, h2, h3, p, ol, ul {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 /*     text-align: center; */
 }
+
 li{
   margin: 15px 0;
 }
@@ -349,9 +350,15 @@ li{
 }
 .y1889 {
     background-color: rgba(47, 15, 111, 1);
+    border-style: solid;
+    border-color: rgba(47, 15, 111, 1);
+    border-width: 10px;
 }
 .y1899 {
     background-color: rgba(95, 31, 159, 1);
+    border-style: solid;
+    border-color: rgba(95, 31, 159, 1);
+    border-width: 10px;
 }
 .y1999 {
     background-color: rgba(143, 0, 208, 1);
@@ -649,38 +656,22 @@ li{
 }
 
 
-.res-circle {
-  /* (A) PERCENTAGE WIDTH & BORDER RADIUS */
-  width: 40%;
-  border-radius: 50%;
-
-  /* (B) BACKGROUND COLOR 
-  background-color: #bcd6ff;
-  border-style: solid;
-  border-color: #ff0000;
-  border-width: 5px;*/ 
- 
-  /* (C) NECESSARY TO POSITION TEXT BLOCK */
-  line-height: 0;
-  position: relative;
+/* Fonts */
+.babyan h1, .babyan h2, .babyan h3, .babyan p, .babyan ol, .babyan ul {
+    font-family: 'Brush Script MT', cursive;
 }
- 
-/* (D) MATCH HEIGHT */
-.res-circle::after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+.playschoolian h1, .playschoolian h2, .playschoolian h3, .playschoolian p, .playschoolian ol, .playschoolian ul {
+    font-family: 'Brush Script MT', cursive;
 }
- 
-/* (E) TEXT BLOCK */
-.circle-txt {
-  /* (E1) CENTER TEXT IN CIRCLE */
-  position: absolute;
-  bottom: 25%;
-  width: 100%;
-  text-align: center;
- 
-  /* (E2) THE FONT - NOT REALLY IMPORTANT */
-  font-family: arial, sans-serif;
-  font-weight: bold;
+.primaryzoic h1, .primaryzoic h2, .primaryzoic h3, .primaryzoic p, .primaryzoic ol, .primaryzoic ul {
+    font-family: 'Brush Script MT', cursive;
+}
+.secondaryzoic h1, .secondaryzoic h2, .secondaryzoic h3, .secondaryzoic p, .secondaryzoic ol, .secondaryzoic ul {
+    font-family: 'Courier New', monospace;
+}
+.collegenian h1, .collegenian h2, .collegenian h3, .collegenian p, .collegenian ol, .collegenian ul {
+    font-family: 'Courier New', monospace;
+}
+.universityzoic h1, .universityzoic h2, .universityzoic h3, .universityzoic p, .universityzoic ol, .universityzoic ul {
+    font-family: 'Times New Roman', serif;
 }
