@@ -409,12 +409,18 @@ li{
 .janc a {
     color: rgba(244, 233, 255, 1);
 }
+.janb {
+    border-color: rgba(127, 85, 234, 1);
+}
 .febc {
     background-color: rgba(63, 63, 191, 1);
     color: rgba(191, 191, 255, 1);
 }
 .febc a {
     color: rgba(233, 233, 255, 1);
+}
+.febb {
+    border-color: rgba(63, 63, 191, 1);
 }
 .marc {
     background-color: rgba(42, 127, 213, 1);
@@ -423,6 +429,9 @@ li{
 .marc a {
     color: rgba(230, 242, 255, 1);
 }
+.marb {
+    border-color: rgba(42, 127, 213, 1);
+}
 .aprc {
     background-color: rgba(21, 234, 234, 1);
     color: rgba(0, 95, 95, 1);
@@ -430,12 +439,18 @@ li{
 .aprc a {
     color: rgba(0, 55, 55, 1);
 }
+.aprb {
+    border-color: rgba(21, 234, 234, 1);
+}
 .mayc {
     background-color: rgba(0, 255, 127, 1);
     color: rgba(0, 63, 31, 1);
 }
 .mayc a {
-    color: rgba(0, 63, 31, 1);
+    color: rgba(20, 83, 51, 1);
+}
+.mayb {
+    border-color: rgba(0, 255, 127, 1);
 }
 .junc {
     background-color: rgba(21, 191, 21, 1);
@@ -444,12 +459,18 @@ li{
 .junc a {
     color: rgba(40, 0, 100, 1);
 }
+.junb {
+    border-color: rgba(21, 191, 21, 1);
+}
 .julc {
     background-color: rgba(127, 213, 42, 1);
     color: rgba(31, 63, 0, 1);
 }
 .julc a {
     color: rgba(31, 63, 0, 1);
+}
+.julb {
+    border-color: rgba(127, 213, 42, 1);
 }
 .augc {
     background-color: rgba(191, 191, 63, 1);
@@ -458,12 +479,18 @@ li{
 .augc a {
     color: rgba(43, 43, 0, 1);
 }
+.augb {
+    border-color: rgba(191, 191, 63, 1);
+}
 .sepc {
     background-color: rgba(170, 127, 85, 1);
     color: rgba(255, 223, 191, 1);
 }
 .sepc a {
     color: rgba(255, 223, 191, 1);
+}
+.sepb {
+    border-color: rgba(170, 127, 85, 1);
 }
 .octc {
     background-color: rgba(149, 106, 106, 1);
@@ -472,6 +499,9 @@ li{
 .octc a {
     color: rgba(255, 230, 230, 1);
 }
+.octb {
+    border-color: rgba(149, 106, 106, 1);
+}
 .novc {
     background-color: rgba(127, 127, 127, 1);
     color: rgba(255, 191, 223, 1);
@@ -479,12 +509,18 @@ li{
 .novc a {
     color: rgba(255, 223, 239, 1);
 }
+.novb {
+    border-color: rgba(127, 127, 127, 1);
+}
 .decc {
     background-color: rgba(149, 106, 149, 1);
     color: rgba(255, 191, 255, 1);
 }
 .decc a {
     color: rgba(255, 230, 255, 1);
+}
+.decb {
+    border-color: rgba(149, 106, 149, 1);
 }
 
 
@@ -714,12 +750,18 @@ li{
 }
 
 
-/* Writing font */
+/* Writing font - Place this last in the file to override previous settings*/
 .writing {
     font-family: 'Andika New Basic';
-/*    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
-/*     text-align: center; */
+    text-decoration: none !important;
 }
 .deadlink {
-    color: rgba(0, 0, 0, 0.6) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    text-decoration: none !important;
+}
+.deadlink:hover {
+    text-decoration: underline !important;
+}
+a:hover {
+    text-decoration: underline !important;
 }
