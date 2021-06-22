@@ -561,6 +561,9 @@ li{
     .paper h1{
         font-size: 32px;
     }
+    .paper h2{
+        font-size: 24px;
+    }
     .paper p{
         font-size: 12px;
     }
@@ -895,7 +898,7 @@ li{
 
 /* Writing font - Place this last in the file to override previous settings*/
 .writing {
-    font-family: 'Andika New Basic';
+    font-family: 'Andika New Basic' !important;
     text-decoration: none !important;
 }
 .deadlink {
