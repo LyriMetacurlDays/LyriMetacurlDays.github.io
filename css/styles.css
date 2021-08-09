@@ -898,7 +898,7 @@ li{
 
 /* Writing font - Place this last in the file to override previous settings*/
 .writing {
-    font-family: 'Andika New Basic' !important;
+    font-family: 'Andika New Basic', 'Lucida Handwriting', 'Lucida Sans Unicode', sans-serif !important;
     text-decoration: none !important;
 }
 .deadlink {
