@@ -242,6 +242,11 @@ li{
     border-style: solid;
     border-width: 10px;
 }
+.pgen {
+    border-color: black;
+    border-style: double;
+    border-width: 10px;
+}
 
 .y0002 {
     background-color: rgba(255, 191, 191, 1);
@@ -528,7 +533,6 @@ li{
 /* Day text colour, supposed to be nc (black) for ratings 34 to 133 and ac (white) for ratings outside of that range */
 .nc {
     color: rgba(0, 0, 0, 1);
-    border-color: black;
 }
 .nc a {
     color: rgba(0, 0, 0, 1);
@@ -536,7 +540,6 @@ li{
 }
 .ac {
     color: rgba(255, 255, 255, 1);
-    border-color: white;
 }
 .ac a {
     color: rgba(255, 255, 255, 1);
