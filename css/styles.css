@@ -533,6 +533,7 @@ li{
 /* Day text colour, supposed to be nc (black) for ratings 34 to 133 and ac (white) for ratings outside of that range */
 .nc {
     color: rgba(0, 0, 0, 1);
+    border-color: black;
 }
 .nc a {
     color: rgba(0, 0, 0, 1);
