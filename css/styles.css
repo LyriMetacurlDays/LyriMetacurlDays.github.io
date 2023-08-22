@@ -934,114 +934,114 @@ li{
 }
 
 
-/* Temperature colours */
-.tpos24 {
+/* Monthly and yearly temperature colours */
+.tpos24, .tposy13p75 {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(255, 0, 0, 1);
 }
-.tpos23 {
+.tpos23, .tposy13p5 {
     background-color: rgba(51, 0, 0, 1);
     color: rgba(255, 51, 51, 1);
 }
-.tpos22 {
+.tpos22, .tposy13p25 {
     background-color: rgba(102, 0, 0, 1);
     color: rgba(255, 102, 102, 1);
 }
-.tpos21 {
+.tpos21, .tposy13 {
     background-color: rgba(153, 0, 0, 1);
     color: rgba(255, 153, 153, 1);
 }
-.tpos20 {
+.tpos20, .tposy12p75 {
     background-color: rgba(204, 0, 0, 1);
     color: rgba(255, 204, 204, 1);
 }
-.tpos19 {
+.tpos19, .tposy12p5 {
     background-color: rgba(255, 0, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tpos18 {
+.tpos18, .tposy12p25 {
     background-color: rgba(255, 51, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tpos17 {
+.tpos17, .tposy12 {
     background-color: rgba(255, 102, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tpos16 {
+.tpos16, .tposy11p75 {
     background-color: rgba(255, 153, 0, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tpos15 {
+.tpos15, .tposy11p5 {
     background-color: rgba(255, 204, 0, 1);
 }
-.tpos14 {
+.tpos14, .tposy11p25 {
     background-color: rgba(255, 255, 0, 1);
 }
-.tpos13 {
+.tpos13, .tposy11 {
     background-color: rgba(204, 255, 0, 1);
 }
-.tpos12 {
+.tpos12, .tposy10p75 {
     background-color: rgba(153, 255, 0, 1);
 }
-.tpos11 {
+.tpos11, .tposy10p5 {
     background-color: rgba(102, 255, 0, 1);
 }
-.tpos10 {
+.tpos10, .tposy10p25 {
     background-color: rgba(51, 255, 0, 1);
 }
-.tpos9 {
+.tpos9, .tposy10 {
     background-color: rgba(0, 255, 0, 1);
 }
-.tpos8 {
+.tpos8, .tposy9p75 {
     background-color: rgba(0, 255, 51, 1);
 }
-.tpos7 {
+.tpos7, .tposy9p5 {
     background-color: rgba(0, 255, 102, 1);
 }
-.tpos6 {
+.tpos6, .tposy9p25 {
     background-color: rgba(0, 255, 153, 1);
 }
-.tpos5 {
+.tpos5, .tposy9 {
     background-color: rgba(0, 255, 204, 1);
 }
-.tpos4 {
+.tpos4, .tposy8p75 {
     background-color: rgba(0, 255, 255, 1);
 }
-.tpos3 {
+.tpos3, .tposy8p5 {
     background-color: rgba(0, 204, 255, 1);
 }
-.tpos2 {
+.tpos2, .tposy8p25 {
     background-color: rgba(0, 153, 255, 1);
 }
-.tpos1 {
+.tpos1, .tposy8 {
     background-color: rgba(0, 102, 255, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tzero {
+.tzero, .tposy7p75 {
     background-color: rgba(0, 51, 255, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tneg1 {
+.tneg1, .tposy7p5 {
     background-color: rgba(0, 0, 255, 1);
     color: rgba(255, 255, 255, 1);
 }
-.tneg2 {
+.tneg2, .tposy7p25 {
     background-color: rgba(0, 0, 204, 1);
     color: rgba(204, 255, 255, 1);
 }
-.tneg3 {
+.tneg3, .tposy7 {
     background-color: rgba(0, 0, 153, 1);
     color: rgba(153, 255, 255, 1);
 }
-.tneg4 {
+.tneg4, .tposy6p75 {
     background-color: rgba(0, 0, 102, 1);
     color: rgba(102, 255, 255, 1);
 }
-.tneg4 {
+.tneg4, .tposy6p5 {
     background-color: rgba(0, 0, 51, 1);
     color: rgba(51, 255, 255, 1);
 }
-.tneg5 {
+.tneg5, .tposy6p25 {
     background-color: rgba(0, 0, 0, 1);
     color: rgba(0, 255, 255, 1);
 }
