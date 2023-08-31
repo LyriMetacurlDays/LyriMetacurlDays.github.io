@@ -115,7 +115,7 @@ li{
 }
 .deputyrep {
     color: white;
-    text-shadow: 0 0 5px #BFBFBF;
+    text-shadow: 0 0 5px #FFBFBF, 0 0 7px #BF0000;
 }
 .firstlegend {
     color: gold;
